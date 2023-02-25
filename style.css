@@ -121,7 +121,8 @@ p{
     right: 0;
     z-index: 2;
     background-image: linear-gradient(to left, transparent, #fff 60%, #fff, #fff, #ffffff);
-  }
+}
+
 
 .intro__inner {
     position: relative;
@@ -268,7 +269,7 @@ p{
 .article-item span {
     position: absolute;
     top: -26.5px;
-    left: 123px;
+    left: 121px;
     padding: 4px 5px;
     background: #3172b9;
     border-radius: 10px 0px 0px 0px;
@@ -423,7 +424,12 @@ p{
     font-size: 14px;
 }
 
-.contacts-group a{
+.contacts a{
     line-height: 25.2px;
     color: #787878;
+    transition: .01s linear;
+}
+
+.contacts a:hover{
+    color: #3172b9;
 }
