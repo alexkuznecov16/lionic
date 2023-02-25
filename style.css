@@ -161,7 +161,7 @@ p{
 .services {
     width: 100%;
     height: auto;
-    padding: 150px 0;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,7 +235,7 @@ p{
 .reviews {
     width: 100%;
     height: auto;
-    padding: 150px 0;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -312,3 +312,32 @@ p{
 
 
 /*! Section Articles  */
+.articles {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.articles__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.article-item {
+    width: 570px;
+    height: 180px;
+}
+.article-img {
+}
+.article-info {
+}
+.article-date {
+}
+.article-title {
+}
+.article-msg {
+}
