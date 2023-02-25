@@ -229,6 +229,83 @@ p{
 
 
 
+/*! Section Articles  */
+.articles {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.articles__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.article-item {
+    position: relative;
+    width: 570px;
+    height: 180px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #e4e4e4;
+    transition: .2s linear;
+}
+
+.article-item:hover {
+    -webkit-transform: scale(1.030);
+    transform: scale(1.030);
+}
+
+.article-item:hover .article-img{
+    filter: blur(1px);
+}
+
+.article-item span {
+    position: absolute;
+    top: -26.5px;
+    left: 123px;
+    padding: 4px 5px;
+    background: #3172b9;
+    border-radius: 10px 0px 0px 0px;
+    font-size: 16px;
+    color: snow;
+    font-weight: bold;
+}
+
+.article-img {
+    display: flex;
+}
+
+.article-img img {
+    border-radius: 10px 0px 0px 10px;
+}
+.article-info {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.article-date {
+    font-size: 10px;
+}
+.article-title {
+    font-size: 20px;
+}
+.article-msg {
+    font-size: 14px;
+    line-height: 21px;
+    color: #787878;
+    width: 210px;
+}
+
+
+
 
 
 /*! Section reviews/Messages  */
@@ -307,37 +384,4 @@ p{
 }
 .author__profession {
     font-size: 14px;
-}
-
-
-
-/*! Section Articles  */
-.articles {
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.articles__inner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.article-item {
-    width: 570px;
-    height: 180px;
-}
-.article-img {
-}
-.article-info {
-}
-.article-date {
-}
-.article-title {
-}
-.article-msg {
 }
