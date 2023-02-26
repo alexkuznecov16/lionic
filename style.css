@@ -167,11 +167,11 @@ p{
     color: #fff;
     border-radius: 4px;
     margin-bottom: 10px;
-    transition: .2s linear;
+    transition: .2s linear !important;
 }
 
 .intro__button:hover {
-    opacity: .7;
+    opacity: .7 !important;
 }
 
 .intro__secure, .intro__secure i {
@@ -220,7 +220,7 @@ p{
     align-items: center;
     row-gap: 20px;
     cursor: pointer;
-    transition: .2s linear;
+    transition: .2s linear !important;
 }
 
 .icon{
@@ -237,8 +237,8 @@ p{
 
 .service-item:hover {
     background-color: #3172b9;
-    -webkit-transform: scale(1.050);
-    transform:scale(1.050);
+    -webkit-transform: scale(1.050) !important;
+    transform: scale(1.050) !important;
 }
 
 .service-item:hover  .item-info,.service-item:hover .item-title {
@@ -280,8 +280,8 @@ p{
 }
 
 .article-item:hover {
-    -webkit-transform: scale(1.030);
-    transform: scale(1.030);
+    -webkit-transform: scale(1.030) !important;
+    transform: scale(1.030) !important;
 }
 
 .article-item:hover .article-img{
@@ -369,7 +369,7 @@ p{
     transition: .2s linear;
     position: relative;
     padding: 24px;
-    transition: .2s linear;
+    transition: .2s linear !important;
 }
 
 .review-item:hover {
@@ -537,9 +537,96 @@ display: flex;
     padding: 15px 35px;
     border-radius: 50px;
     background: #3172B9;
+    cursor: pointer;
+    border: none;
+    transition: .2s linear !important;
 }
+
+.join__button:hover {
+    opacity: .6;
+}
+
 .btn-info {
     padding-top: 9px;
     display: flex;
     justify-content: end;
 }
+
+
+
+/*! Footer  */
+
+.footer {
+    width: 100%;
+    height: 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__inner{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.copyright {
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    transition: .2s linear !important;
+}
+
+.copyright a img:hover{
+    opacity: .6 !important;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    column-gap: 28px;
+}
+
+.footer-nav a{
+    transition: .2s linear;
+}
+
+.footer-nav a:hover {
+    opacity: .6;
+}
+
+.socials {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    column-gap: 23px;
+}
+
+.socials i{
+    cursor: pointer;
+    padding: 3px;
+
+}
+
+.icon-twitter:hover {
+    color: #3071b7;
+}
+
+.icon-linkedin:hover{
+    background-color: #3071b7;
+    color: #fff;
+}
+
+.icon-email:hover {
+    color: #3071b7;
+}
+
+
+/* icon-twitter
+icon-linkedin
+icon-email */
