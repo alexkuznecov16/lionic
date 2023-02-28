@@ -109,10 +109,18 @@ p{
     margin: 0 auto;
     transition: .2s linear;
 }
-
-.header__button:hover , .header__logo img:hover {
+ .header__logo img:hover {
     opacity: .7;
 }
+
+.header__button:hover{
+    background: #71A7E2 !important;
+}
+
+.header__button:disabled{
+    background: #C4C4C4 !important;
+}
+
 
 /*! Section intro  */
 .intro {
@@ -170,9 +178,14 @@ p{
     transition: .2s linear !important;
 }
 
-.intro__button:hover {
-    opacity: .7 !important;
+.intro__button:hover{
+    background: #71A7E2 !important;
 }
+
+.intro__button:disabled{
+    background: #C4C4C4 !important;
+}
+
 
 .intro__secure, .intro__secure i {
     margin-right: auto;
@@ -277,12 +290,22 @@ p{
     border-radius: 10px;
     border: 1px solid #e4e4e4;
     transition: .2s linear;
+    cursor: pointer;
 }
 
 .article-item:hover {
     -webkit-transform: scale(1.030) !important;
     transform: scale(1.030) !important;
 }
+
+.article-item:hover .article-info{
+    background: #3172B9;
+}
+
+.article-item:hover .article-date, .article-item:hover .article-msg, .article-item:hover .article-title{
+    color: #fff !important;
+}
+
 
 .article-item:hover .article-img{
     filter: blur(1px);
@@ -453,7 +476,11 @@ p{
 }
 
 .contacts a:hover{
-    color: #3172b9;
+    color: #71A7E2;
+}
+
+.contacts a:visited{
+    color: #0E3B6C;
 }
 
 
@@ -498,6 +525,23 @@ p{
     border: 1px solid #0E3B6C;
     border-radius: 50px;
     width: 220px;
+}
+
+.join__inner input, .join__inner select, .join__inner textarea{
+    cursor: pointer;
+}
+
+
+.join__inner input:hover, .join__inner select:hover, .join__inner textarea:hover{
+    border: 1px solid #71A7E2;
+}
+
+.join__inner input:focus, .join__inner select:focus, .join__inner textarea:focus{
+    background: rgba(113, 167, 226, 0.2);
+}
+
+.join__inner input:-ms-input-placeholder, .join__inner select:-ms-input-placeholder, .join__inner textarea:-ms-input-placeholder{
+    color: #000000;
 }
 
 .join__inner textarea{
@@ -593,6 +637,7 @@ display: flex;
 
 .footer-nav a{
     transition: .2s linear;
+    color: #787878;
 }
 
 .footer-nav a:hover {
@@ -613,17 +658,8 @@ display: flex;
 
 }
 
-.icon-twitter:hover {
-    color: #3071b7;
-}
-
-.icon-linkedin:hover{
-    background-color: #3071b7;
-    color: #fff;
-}
-
-.icon-email:hover {
-    color: #3071b7;
+.socials i:hover{
+    color: #71A7E2;
 }
 
 
