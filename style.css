@@ -855,6 +855,9 @@ display: flex;
         column-gap: 10px;
         width: 300px;
     }
+    .socials{
+        column-gap: 15px;
+    }
 }
 
 @media  screen and (max-width: 300px) {
