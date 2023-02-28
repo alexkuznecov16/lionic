@@ -737,7 +737,8 @@ display: flex;
 
     .intro-text,.intro-title,.intro__secure{
         margin: 0;
-        text-align: left;
+        text-align: right;
+        padding: 20px 0;
     }
 
     .article-item{
