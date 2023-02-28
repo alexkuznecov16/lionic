@@ -743,6 +743,9 @@ display: flex;
     .article-item{
         width: auto;
     }
+    .article-info{
+        padding: 15px;
+    }
     .article-msg{
         font-size: 11px;
     }
