@@ -99,7 +99,11 @@ p{
     transition: .2s linear;
 }
 
-.nav-item a:hover {
+.nav-item a:hover , .hamburger-nav-list a:hover {
+    color: #71A7E2;
+}
+
+.nav-item a:visited , .hamburger-nav-list a:visited{
     padding-bottom: 4px;
     border-bottom: 2px solid #3172b9;
 }
@@ -138,10 +142,6 @@ p{
 .hamburger-nav-list a{
     width: 100%;
     display: block;
-}
-
-.hamburger-nav-list a:hover{
-    text-decoration: underline;
 }
 
 
@@ -756,9 +756,11 @@ display: flex;
 
     .article-item{
         width: auto;
+        -webkit-transform: scale(.8) !important;
         transform: scale(.8) !important;
     }
     .article-item:hover{
+        -webkit-transform: scale(.9) !important;
         transform: scale(.9) !important;
     }
     .article-info{
@@ -766,5 +768,21 @@ display: flex;
     }
     .article-msg{
         font-size: 14px;
+    }
+    .section__name,.section__name2{
+        text-align: center;
+    }
+    .review-item{
+        -webkit-transform: scale(.8) !important;
+        transform: scale(.8) !important;
+    }
+    .contact-item:first-child{
+        width: 100%;
+    }
+    .contact-item{
+        text-align: center;
+    }
+    .contact-item a{
+        font-size: 12px;
     }
 }
