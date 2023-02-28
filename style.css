@@ -735,10 +735,14 @@ display: flex;
     display: block;
     }
 
-    .intro-text,.intro-title,.intro__secure,.intro__button{
+    .intro-text,.intro-title,.intro__secure{
         margin: 0;
         text-align: center;
         padding: 20px 0;
+    }
+    .intro__button {
+        text-align: center;
+        margin: 0;
     }
 
     .article-item{
