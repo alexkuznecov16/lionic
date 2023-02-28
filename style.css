@@ -844,6 +844,9 @@ display: flex;
     .join__inner{
         flex-direction: column;
     }
+    .review-msg{
+        padding: 5px;
+    }
 }
 
 @media  screen and (max-width: 400px) {
