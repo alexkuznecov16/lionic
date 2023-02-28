@@ -32,6 +32,10 @@ body, html{
     font-family: 'Muller', sans-serif;
 }
 
+:any-link{
+    cursor: pointer;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -119,6 +123,68 @@ p{
 
 .header__button:disabled{
     background: #C4C4C4 !important;
+}
+
+
+
+/*? Hamburger menu  */
+
+.hamburger-nav-list,.hamburger-open{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .header__inner{
+        justify-content: space-around;
+    }
+    .header__button, .header__logo{
+        margin: 0;
+    }
+    .header__nav{
+        display: none;
+    }
+    .hamburger-open {
+        font-size: 30px;;
+    }
+    .hamburger-nav-list {
+        display: block;
+        float: left;
+        position: absolute;
+        top: 110px;
+        z-index: 99999;
+        width: 100%;
+        background-color: navajowhite;
+    }
+    
+    .hamburger-nav-list a{
+        display: block;
+        text-align: center;
+    }
+    
+    .hamburger-close:hover{
+        color: red;
+    }
+    
+    .intro{
+        margin-top: 240px;
+    }
+    .hamburger-close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        transition: .2s linear;
+    }
+    .hamburger-nav-item {
+        color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    }
 }
 
 
@@ -658,6 +724,6 @@ display: flex;
 }
 
 
-/* icon-twitter
-icon-linkedin
-icon-email */
+
+/*! Section for Media Screens  */
+
