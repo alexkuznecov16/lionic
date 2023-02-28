@@ -813,6 +813,8 @@ display: flex;
 
     .copyright{
         order: 4;
+        padding-top: 10px;
+        border-top: 1px solid grey;
     }
 
     .socials{
