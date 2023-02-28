@@ -745,7 +745,7 @@ display: flex;
         transform: scale(.8) !important;
     }
     .article-item:hover{
-        transform: scale(.9);
+        transform: scale(.9) !important;
     }
     .article-info{
         padding: 15px;
