@@ -785,4 +785,24 @@ display: flex;
     .contact-item a{
         font-size: 12px;
     }
+    .join__inner input, .join__inner select, .join__inner option {
+        padding: 12px 20px;
+        width: 150px;
+    }
+    .join__inner textarea{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .join__inner input, .join__inner select, .join__inner option {
+        width: auto;
+    }
+    .join__inner{
+        flex-direction: column;
+    }
+    .join-btn{
+        padding: 15px 0px;
+        width: 100%;
+    }
 }
