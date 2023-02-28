@@ -743,4 +743,7 @@ display: flex;
     .article-item{
         width: auto;
     }
+    .article-msg{
+        font-size: 11px;
+    }
 }
