@@ -135,6 +135,11 @@ p{
     user-select: none;
 }
 
+.hamburger-nav-list a{
+    width: 100%;
+    display: block;
+}
+
 .hamburger-nav-list a:hover{
     background-color: #3071b7;
 }
