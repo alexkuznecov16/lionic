@@ -141,7 +141,7 @@ p{
 }
 
 .hamburger-nav-list a:hover{
-    background-color: #3071b7;
+    text-decoration: underline;
 }
 
 
