@@ -735,9 +735,9 @@ display: flex;
     display: block;
     }
 
-    .intro-text,.intro-title,.intro__secure{
+    .intro-text,.intro-title,.intro__secure,.intro__button{
         margin: 0;
-        text-align: right;
+        text-align: center;
         padding: 20px 0;
     }
 
