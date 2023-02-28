@@ -131,6 +131,8 @@ p{
 
 .hamburger-nav-list,.hamburger-open{
     display: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 
@@ -154,12 +156,18 @@ p{
         float: left;
         position: absolute;
         top: 110px;
-        z-index: 99999;
+        z-index: -1;
         width: 100%;
         background-color: navajowhite;
+        transition: .4s ease-in-out;
+    }
+
+    .hamburger-nav-list.active{
+        right: 0;
+        z-index: 0;
     }
     
-    .hamburger-nav-list a{
+    .hamburger-nav-list .hamburger-nav-list a{
         display: block;
         text-align: center;
     }
@@ -168,10 +176,11 @@ p{
         color: red;
     }
     
-    .intro{
+    .intro.hamb{
+        transition: .4s ease-in;
         margin-top: 240px;
     }
-    .hamburger-close {
+    .hamburger-nav-list .hamburger-close {
         position: absolute;
         right: 20px;
         top: 20px;

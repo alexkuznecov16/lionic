@@ -38,11 +38,13 @@
                 <a href="#" class="header__button">
                     FREE TRIAL
                 </a>   
-                <i class="fa-solid fa-bars hamburger-open"></i>
+                <a id="hamb-open" href="#">
+                    <i class="fa-solid fa-bars hamburger-open"></i>
+                </a>
             </div>
         </div>
-        <ul class="hamburger-nav-list">
-            <i class="fa-regular fa-circle-xmark hamburger-close"></i>
+        <ul id="hamb-list" class="hamburger-nav-list">
+            <i id="hamb-close" class="fa-regular fa-circle-xmark hamburger-close"></i>
             <li class="hamburger-nav-item">
                 <a href="#">Home</a>
             </li>
@@ -61,8 +63,9 @@
         </ul>
     </header>
     <!-- /.header -->
+    
 
-    <section class="intro">
+    <section id="intro1" class="intro">
         <div class="container">
             <div class="intro__inner">
                 <h1 class="intro-title" data-aos="fade-up">This is simply a smarter way<br> to make your legal online</h1>
@@ -333,5 +336,6 @@
     <script>
         AOS.init();
       </script>
+      <script src="app.js"></script>
 </body>
 </html>
