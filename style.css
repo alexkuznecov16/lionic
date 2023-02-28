@@ -135,6 +135,10 @@ p{
     user-select: none;
 }
 
+.hamburger-nav-list a:hover{
+    background-color: #3071b7;
+}
+
 
 
 /*! Section intro  */
