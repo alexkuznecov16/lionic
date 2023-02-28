@@ -306,11 +306,6 @@ p{
     color: #fff !important;
 }
 
-
-.article-item:hover .article-img{
-    filter: blur(1px);
-}
-
 .article-item span {
     position: absolute;
     top: -26.5px;
